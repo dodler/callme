@@ -20,9 +20,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ShareActivity">
-
-        </activity>
+        <activity android:name=".AcceptActivity"/>
+        <activity android:name=".ConfigureShareActivity" />
     </application>
 
 </manifest>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CallMe</string>
+    <string name="name_hint">Enter you name</string>
+    <string name="phone_number_hint">Enter you phone number</string>
+    <string name="email_hint" >Enter you email</string>
+    <string name="company_hint">Where are you working</string>
 </resources>

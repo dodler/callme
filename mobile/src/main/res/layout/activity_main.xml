@@ -4,19 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="ai.lyan.callme.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/qr_img_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="30pt"
+        app:srcCompat="@color/colorPrimary" />
 
     <Button
         android:id="@+id/btn_accept"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Accept contact"
-        android:layout_marginTop="30pt" />
-
-    <Button
-        android:id="@+id/btn_share"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Share contact" />
+        android:text="Accept contact" />
 
 </android.widget.FrameLayout>
